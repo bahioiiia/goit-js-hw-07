@@ -40,7 +40,7 @@ function createBoxes(qty) {
   }
   if (size > 426) {
     boxesDiv.style.width = size + 64 +"px";
-  }
+  } /* changes width of Div if size of Box larger than Div (+ padding32 *2 )*/
   boxesDiv.append(...elements);
 }
 
